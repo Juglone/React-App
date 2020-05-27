@@ -1,0 +1,73 @@
+* {
+  margin:0;
+  padding:0;
+  font-family:monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.Doggo {
+  height: 20vmin;
+  margin-bottom: 40px;
+  pointer-events: none;
+}
+
+.division{
+  width:25%; 
+  float:left;
+  margin: 4%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Doggo {
+    animation: Doggo-spin infinite 2s linear;
+  }
+} /*Hund-snurr i all oändlighet */
+
+@keyframes Doggo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} /*Det är detta som får hunden att snurra */
+
+body {
+  background-image: url("http://vignette2.wikia.nocookie.net/clubpenguin/images/4/42/Waddling_Penguin.gif/revision/latest/scale-to-width/183?cb=20150204011824");
+  background-size: 100px;
+  background-repeat: repeat; /*Det är detta stycke som ger bakgrunden med pingviner! */
+}
+
+h1 {
+  background-color: rgba(206, 117, 45, 0.281);
+  color:rgb(255, 123, 0)
+}
+
+p {
+  background-color: rgba(83, 83, 83, 0.877);
+}
+
+a {
+  background-color: rgba(233, 126, 4, 0.844);
+}
+
+.App-link {
+  color: #c43a04;
+}
+
+/* Det ovan definierar vilka färger som olika typer av text ska vara */
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
