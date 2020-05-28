@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import hund_bild from './doggo2.png'
 import polar_bear from './bjorn.gif'
-import pratbubbla from './pratbubbla1.png'
+import pratbubbla from './pratbubbla4.png'
 import Typical from 'react-typical';
 
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
     <div className="App">
       <header className="App-header">
         <h1>Välkommen till min sida! :-)</h1>
-        <br></br>
+
         <div>
           <div class="division"><img src={pratbubbla} className="dialog" alt="En Pratbubbla" /></div>
           <div class="division"><img src={hund_bild} className="Doggo" alt="En söt Hund" /></div>
@@ -24,7 +24,7 @@ function Home() {
         >
           <h3>Klicka för att få höra min favoritlåt!!</h3>
         </a>
-        <br></br>
+
         <p>
           Tjena{' '}
           <Typical
