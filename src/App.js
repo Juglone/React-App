@@ -5,7 +5,6 @@ import polar_bear from './bjorn.gif'
 import pratbubbla from './pratbubbla1.png'
 import Typical from 'react-typical';
 
-
 function Home() {
   return (
     <div className="App">
@@ -17,7 +16,6 @@ function Home() {
           <div class="division"><img src={hund_bild} className="Doggo" alt="En söt Hund" /></div>
           <div class="division"><img src={polar_bear} className="Bjorn" alt="En vandrande Isbjörn" /></div>
         </div>
-
         <a
           className="App-link"
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
