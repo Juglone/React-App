@@ -1,4 +1,4 @@
-##React-App
+# React-App
 
 This is my first React App! It was made for a school project. To view the website in your browser, run `npm start` in the terminal. Then it will open up a localhost in your browser.
 
